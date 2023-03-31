@@ -1,0 +1,117 @@
+body{
+	background: linear-gradient(68.15deg, #696969 16.62%, #836FFF 85.61%);
+    background-position: static;
+    margin: 0;
+}
+
+header {
+	background: linear-gradient(68.15deg, #1C1C1C 16.62%, #363636 85.61%);
+	padding: 30px;
+	text-align: center;
+}
+
+footer {
+	background: linear-gradient(68.15deg, #1C1C1C 16.62%, #363636 85.61%);
+	padding: 25px 0px;
+	text-align: right;
+	position: absolute;
+    bottom: 10;
+    color: #FFF;
+    width: 100%;
+    height: 20px;    
+}
+
+h1{
+	font: arial;
+	font-size: 50px;
+	color: red;
+}
+
+
+/* primeira parte do site*/
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 3px solid red;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+
+}
+
+.titulo {
+  font-family: arial;
+  font-weight: 400;
+  font-size: 40px;
+  color: black;
+  font: Arial;
+	text-shadow: 2px 2px 3px black;
+	text-align: center;
+}
+
+.texto {
+  font-family: arial;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  font: Arial;
+	text-align: left;
+	padding: 1px 20px;
+}
+
+.imagem1 {
+  height: 350px;
+  padding: 10px 20px;
+}
+
+
+
+
+
+/* segunda parte do site */
+.imagem2 {
+  height: 300px;
+  padding: 10px 20px;
+}
+
+.secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.secundario-titulo {
+  border-top: 0.9px solid red;
+  padding-top: 10px;
+  font-family: arial;
+  font-weight: 400;
+  font-size: 40px;
+  color: black;
+	text-shadow: 2px 2px 3px black;
+	text-align: center;
+}
+
+
+
+
+
+/* terceira parte do site */
+.subtitulo {
+  border-top: 0.9px solid red;
+  padding: 10px 20px;
+  font-family: arial;
+  font-weight: 400;
+  font-size: 25px;
+  color: black;
+	text-shadow: 2px 2px 3px black;
+	text-align: left;
+}
+.terciario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
